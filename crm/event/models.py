@@ -1,42 +1,26 @@
 from django.db import models
-from django.contrib.auth.models import User
-
-from client.models import Client
 from contract.models import Contract
+from django.conf import settings
 
 
 class Event(models.Model):
     """  Event model    """
-    client = models.ForeignKey(
-        Client,
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=False)
-    date_created = models.DateTimeField(
-        auto_now_add=True,
-        null=False,
-        blank=False)
-    date_updated = models.DateTimeField(
-        auto_now=True,
-        null=False,
-        blank=False)
+    contract = models.OneToOneField(
+        to=Contract,
+        on_delete=models.CASCADE,
+        primary_key=True,
+        related_name='event')
     support_contact = models.ForeignKey(
-        User,
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=False)
-    event_status = models.ForeignKey(
-        Contract,
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=False)
-    attendees = models.IntegerField(
-        null=False,
-        blank=False)
-    event_date = models.DateTimeField(
-        null=False,
-        blank=False)
-    notes = models.TextField(
-        null=False,
-        blank=False)
+        to=settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True)
+    attendees = models.IntegerField(null=True)
+    event_date = models.DateField(null=True)
+    notes = models.TextField(blank=True)
+    completed = models.BooleanField(default=False)
+    date_created = models.DateTimeField(auto_now_add=True)
+    date_updated = models.DateTimeField(null=True)
 
+    class Meta:
+        ordering = ['-date_updated', '-date_created']
+
+    def __str__(self):
+        return f"Evènement: {self.contract.project_name}"

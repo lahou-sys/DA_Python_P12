@@ -1,3 +1,6 @@
-from django.contrib import admin
+from .models import Event
 
-# Register your models here.
+from base_admin.admin import base_admin_interface
+
+
+base_admin_interface.register(Event)

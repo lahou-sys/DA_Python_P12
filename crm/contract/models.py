@@ -1,35 +1,22 @@
 from django.db import models
-from django.contrib.auth.models import User
-
+from django.conf import settings
 from client.models import Client
 
 
 class Contract(models.Model):
-    """ Contracts model    """
     sales_contact = models.ForeignKey(
-        User,
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=False)
+        to=settings.AUTH_USER_MODEL, on_delete=models.PROTECT)
     client = models.ForeignKey(
-        Client,
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=False)
-    date_created = models.DateTimeField(
-        auto_now_add=True,
-        null=False,
-        blank=False)
-    date_updated = models.DateTimeField(
-        auto_now=True,
-        null=False,
-        blank=False)
-    status = models.BooleanField(
-        null=False,
-        blank=False)
-    amount = models.FloatField(
-        null=False,
-        blank=False)
-    payment_due = models.DateTimeField(
-        null=False,
-        blank=False)
+        to=Client, on_delete=models.SET_NULL, null=True)
+    project_name = models.CharField(max_length=100)
+    signed = models.BooleanField(default=False)
+    amount = models.FloatField(null=True)
+    payment_due_date = models.DateField(null=True)
+    date_created = models.DateTimeField(auto_now_add=True)
+    date_updated = models.DateTimeField(null=True)
+
+    class Meta:
+        ordering = ['-date_updated', '-date_created']
+
+    def __str__(self):
+        return f"Contrat: {self.project_name}"

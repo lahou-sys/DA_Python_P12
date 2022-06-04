@@ -49,3 +49,352 @@ INFO 2022-05-27 12:35:38,309 basehttp 43594 140446618236672 "GET /admin/jsi18n/ 
 INFO 2022-05-27 12:35:38,436 basehttp 43594 140446618236672 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
 INFO 2022-05-27 12:35:52,605 basehttp 43594 140446618236672 "POST /admin/auth/user/add/ HTTP/1.1" 200 7300
 INFO 2022-05-27 12:35:52,719 basehttp 43594 140446618236672 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-06-04 13:53:09,525 autoreload 7543 140673115948864 Watching for file changes with StatReloader
+INFO 2022-06-04 13:54:09,655 autoreload 7977 140275010938688 Watching for file changes with StatReloader
+INFO 2022-06-04 13:54:15,049 basehttp 7977 140274946807552 "GET / HTTP/1.1" 200 10814
+INFO 2022-06-04 13:54:15,227 basehttp 7977 140274946807552 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:15,245 basehttp 7977 140274946807552 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:15,260 basehttp 7977 140274946807552 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:15,300 basehttp 7977 140274946807552 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:23,213 basehttp 7977 140274946807552 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 13:54:23,284 basehttp 7977 140274946807552 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 13:54:23,429 basehttp 7977 140274946807552 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:23,429 basehttp 7977 140274938152704 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:23,442 basehttp 7977 140274938152704 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:23,442 basehttp 7977 140274946807552 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:23,445 basehttp 7977 140274938152704 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:26,187 basehttp 7977 140274946807552 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2495
+INFO 2022-06-04 13:54:50,768 basehttp 7977 140274946807552 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 13:54:50,822 basehttp 7977 140274946807552 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 13:54:50,924 basehttp 7977 140274938152704 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:54:50,981 basehttp 7977 140274938152704 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-06-04 13:54:50,984 basehttp 7977 140274946807552 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-06-04 13:55:01,224 basehttp 7977 140274946807552 "GET /admin/auth/group/ HTTP/1.1" 200 4729
+INFO 2022-06-04 13:55:01,324 basehttp 7977 140274938152704 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,328 basehttp 7977 140274938152704 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-06-04 13:55:01,334 basehttp 7977 140274928711424 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,354 basehttp 7977 140274928711424 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,356 basehttp 7977 140274928711424 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,360 basehttp 7977 140274928711424 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,359 basehttp 7977 140274920318720 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,364 basehttp 7977 140274571409152 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,368 basehttp 7977 140274920318720 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,370 basehttp 7977 140274563016448 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2022-06-04 13:55:01,377 basehttp 7977 140274946807552 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 13:55:01,508 basehttp 7977 140274938152704 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-06-04 13:59:43,633 autoreload 8272 140558442739520 Watching for file changes with StatReloader
+INFO 2022-06-04 13:59:48,771 basehttp 8272 140558307686144 "GET /admin/auth/group/ HTTP/1.1" 200 6319
+INFO 2022-06-04 13:59:48,872 basehttp 8272 140558307686144 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 15:33:41,556 autoreload 10030 140520138176320 Watching for file changes with StatReloader
+INFO 2022-06-04 15:33:47,419 basehttp 10030 140520074045184 "GET /admin/auth/group/ HTTP/1.1" 200 6319
+INFO 2022-06-04 15:33:47,526 basehttp 10030 140520074045184 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 15:33:49,828 basehttp 10030 140520074045184 "GET /admin/auth/group/ HTTP/1.1" 200 6319
+INFO 2022-06-04 15:33:49,919 basehttp 10030 140520074045184 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 15:33:54,711 basehttp 10030 140520074045184 "GET /admin/logout/ HTTP/1.1" 200 1575
+INFO 2022-06-04 15:33:56,846 basehttp 10030 140520074045184 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 15:33:56,890 basehttp 10030 140520074045184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 15:33:59,660 basehttp 10030 140520074045184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 15:34:05,200 basehttp 10030 140520074045184 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 15:34:05,285 basehttp 10030 140520074045184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 15:34:07,797 basehttp 10030 140520074045184 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 15:34:07,842 basehttp 10030 140520074045184 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 15:34:19,249 basehttp 10030 140520074045184 "GET /admin/auth/group/ HTTP/1.1" 200 6319
+INFO 2022-06-04 15:34:19,342 basehttp 10030 140520074045184 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 15:34:31,850 basehttp 10030 140520074045184 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 15:38:18,112 autoreload 10030 140520138176320 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 15:38:18,734 autoreload 10199 139670286174016 Watching for file changes with StatReloader
+INFO 2022-06-04 15:38:41,977 autoreload 10279 139694386771776 Watching for file changes with StatReloader
+INFO 2022-06-04 15:40:07,829 autoreload 10345 140466991785792 Watching for file changes with StatReloader
+INFO 2022-06-04 15:48:34,861 autoreload 10345 140466991785792 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 15:48:39,383 autoreload 10600 140495651379008 Watching for file changes with StatReloader
+INFO 2022-06-04 16:09:43,927 autoreload 10907 140398355420992 Watching for file changes with StatReloader
+INFO 2022-06-04 16:14:00,528 autoreload 11070 139885376321344 Watching for file changes with StatReloader
+INFO 2022-06-04 16:19:25,622 autoreload 11070 139885376321344 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 16:19:26,341 autoreload 11177 140354563307328 Watching for file changes with StatReloader
+INFO 2022-06-04 16:19:29,685 autoreload 11201 139771795388224 Watching for file changes with StatReloader
+INFO 2022-06-04 16:21:08,879 autoreload 11306 140039381567296 Watching for file changes with StatReloader
+INFO 2022-06-04 16:23:57,952 autoreload 11306 140039381567296 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 16:23:58,489 autoreload 11388 140188714559296 Watching for file changes with StatReloader
+INFO 2022-06-04 16:27:22,092 autoreload 11388 140188714559296 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 16:27:22,903 autoreload 11474 140567320123200 Watching for file changes with StatReloader
+INFO 2022-06-04 16:27:25,848 autoreload 11490 140470746588992 Watching for file changes with StatReloader
+INFO 2022-06-04 16:28:04,505 autoreload 11490 140470746588992 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 16:28:05,067 autoreload 11540 139751717500736 Watching for file changes with StatReloader
+INFO 2022-06-04 16:28:11,545 autoreload 11572 140696522377024 Watching for file changes with StatReloader
+INFO 2022-06-04 16:28:50,178 autoreload 11572 140696522377024 /home/lahou/DA-Python/P12/crm/user/admin.py changed, reloading.
+INFO 2022-06-04 16:28:50,774 autoreload 11627 140122722502464 Watching for file changes with StatReloader
+INFO 2022-06-04 16:28:58,064 autoreload 11673 140497786455872 Watching for file changes with StatReloader
+INFO 2022-06-04 16:29:04,855 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 16:29:07,347 basehttp 11673 140497722324736 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:29:07,419 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 16:29:08,995 basehttp 11673 140497722324736 "GET /admin/logout/ HTTP/1.1" 200 1575
+INFO 2022-06-04 16:29:10,411 basehttp 11673 140497722324736 "GET /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:29:10,471 basehttp 11673 140497722324736 "GET /admin/login/?next=/admin/auth/group/ HTTP/1.1" 200 2281
+INFO 2022-06-04 16:29:11,690 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:29:11,729 basehttp 11673 140497722324736 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 16:29:18,704 basehttp 11673 140497722324736 "GET / HTTP/1.1" 200 10814
+INFO 2022-06-04 16:29:23,863 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:29:23,944 basehttp 11673 140497722324736 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 16:29:25,763 basehttp 11673 140497722324736 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:29:25,823 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 16:29:29,796 basehttp 11673 140497722324736 "GET /admin/auth/group/ HTTP/1.1" 200 6319
+INFO 2022-06-04 16:29:29,929 basehttp 11673 140497722324736 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:29:44,997 basehttp 11673 140497722324736 "GET /admin/auth/group/ HTTP/1.1" 200 6319
+INFO 2022-06-04 16:29:45,116 basehttp 11673 140497722324736 "GET /admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:30:05,840 basehttp 11673 140497722324736 "GET /admin/auth/ HTTP/1.1" 200 2921
+INFO 2022-06-04 16:30:09,872 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 16:30:16,796 basehttp 11673 140497722324736 "GET /admin/ HTTP/1.1" 200 2991
+INFO 2022-06-04 16:33:23,407 basehttp 11673 140497722324736 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2259
+INFO 2022-06-04 16:37:15,720 autoreload 11673 140497786455872 /home/lahou/DA-Python/P12/crm/crm/urls.py changed, reloading.
+INFO 2022-06-04 16:37:16,263 autoreload 12032 140355725322048 Watching for file changes with StatReloader
+INFO 2022-06-04 16:37:31,191 basehttp 12032 140355661190912 "GET /crm-admin HTTP/1.1" 301 0
+INFO 2022-06-04 16:37:31,360 basehttp 12032 140355652798208 "GET /crm-admin/ HTTP/1.1" 200 3592
+INFO 2022-06-04 16:37:48,236 basehttp 12032 140355652798208 "GET /crm-admin/user/user/ HTTP/1.1" 200 5743
+INFO 2022-06-04 16:37:48,360 basehttp 12032 140355652798208 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:38:00,715 basehttp 12032 140355652798208 "GET /crm-admin/user/user/add/ HTTP/1.1" 200 7551
+INFO 2022-06-04 16:38:00,812 basehttp 12032 140355661190912 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2022-06-04 16:38:00,823 basehttp 12032 140355652798208 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:38:00,839 basehttp 12032 140355652798208 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2022-06-04 16:38:00,841 basehttp 12032 140355661190912 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2022-06-04 16:38:00,868 basehttp 12032 140355652798208 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2022-06-04 16:38:28,519 basehttp 12032 140355652798208 "POST /crm-admin/user/user/add/ HTTP/1.1" 200 7718
+INFO 2022-06-04 16:38:28,694 basehttp 12032 140355652798208 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:39:00,288 basehttp 12032 140355652798208 "POST /crm-admin/user/user/add/ HTTP/1.1" 200 7720
+INFO 2022-06-04 16:39:00,439 basehttp 12032 140355652798208 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:40:19,071 basehttp 12032 140355652798208 "POST /crm-admin/user/user/add/ HTTP/1.1" 200 7731
+INFO 2022-06-04 16:40:19,230 basehttp 12032 140355652798208 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:40:41,330 basehttp 12032 140355652798208 "GET /crm-admin/user/user/ HTTP/1.1" 200 5743
+INFO 2022-06-04 16:40:41,478 basehttp 12032 140355652798208 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:40:44,124 basehttp 12032 140355652798208 "GET /crm-admin/user/user/add/ HTTP/1.1" 200 7551
+INFO 2022-06-04 16:40:44,213 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:41:12,818 basehttp 12032 140355652798208 "POST /crm-admin/user/user/add/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:41:13,000 basehttp 12032 140355652798208 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 17166
+INFO 2022-06-04 16:41:13,180 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:41:13,203 basehttp 12032 140355652798208 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2022-06-04 16:41:13,203 basehttp 12032 140355661190912 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+INFO 2022-06-04 16:41:13,218 basehttp 12032 140355661190912 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2022-06-04 16:41:13,220 basehttp 12032 140355652798208 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2022-06-04 16:41:13,322 basehttp 12032 140355661190912 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-06-04 16:41:13,358 basehttp 12032 140355661190912 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2022-06-04 16:41:13,374 basehttp 12032 140355652798208 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2022-06-04 16:41:13,379 basehttp 12032 140355437065984 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2022-06-04 16:41:13,393 basehttp 12032 140355437065984 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2022-06-04 16:41:13,399 basehttp 12032 140355437065984 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2022-06-04 16:41:44,271 basehttp 12032 140355652798208 "GET /crm-admin/auth/group/ HTTP/1.1" 200 6818
+INFO 2022-06-04 16:41:44,399 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:41:46,791 basehttp 12032 140355652798208 "GET /crm-admin/auth/group/3/change/ HTTP/1.1" 200 9293
+INFO 2022-06-04 16:41:46,923 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:42:21,630 basehttp 12032 140355652798208 "GET /crm-admin/auth/group/ HTTP/1.1" 200 6818
+INFO 2022-06-04 16:42:21,744 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:42:23,934 basehttp 12032 140355652798208 "GET /crm-admin/user/user/ HTTP/1.1" 200 7774
+INFO 2022-06-04 16:42:24,032 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:42:24,152 basehttp 12032 140355661190912 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2022-06-04 16:42:26,239 basehttp 12032 140355652798208 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 16899
+INFO 2022-06-04 16:42:26,396 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:42:47,454 basehttp 12032 140355652798208 "POST /crm-admin/user/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:42:47,556 basehttp 12032 140355652798208 "GET /crm-admin/user/user/ HTTP/1.1" 200 7997
+INFO 2022-06-04 16:42:47,662 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:42:58,220 basehttp 12032 140355652798208 "GET /crm-admin/user/user/?groups__id__exact=3 HTTP/1.1" 200 8179
+INFO 2022-06-04 16:42:58,361 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:43:01,305 basehttp 12032 140355652798208 "GET /crm-admin/user/user/?groups__id__exact=1 HTTP/1.1" 200 6620
+INFO 2022-06-04 16:43:01,442 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:43:02,840 basehttp 12032 140355652798208 "GET /crm-admin/user/user/?groups__id__exact=2 HTTP/1.1" 200 6620
+INFO 2022-06-04 16:43:02,973 basehttp 12032 140355661190912 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:43:48,288 autoreload 12032 140355725322048 /home/lahou/DA-Python/P12/crm/base_admin/admin.py changed, reloading.
+INFO 2022-06-04 16:43:48,862 autoreload 12249 139800816654144 Watching for file changes with StatReloader
+INFO 2022-06-04 16:44:19,254 basehttp 12249 139800752523008 "GET /crm-admin/user/user/ HTTP/1.1" 200 7774
+INFO 2022-06-04 16:44:19,374 basehttp 12249 139800752523008 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:44:21,158 basehttp 12249 139800752523008 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 16908
+INFO 2022-06-04 16:44:21,266 basehttp 12249 139800742819584 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 16:50:49,955 basehttp 12249 139800752523008 "GET /crm-admin/ HTTP/1.1" 200 4121
+INFO 2022-06-04 16:50:53,527 basehttp 12249 139800752523008 "GET /crm-admin/logout/ HTTP/1.1" 200 1579
+INFO 2022-06-04 16:50:58,801 basehttp 12249 139800752523008 "GET /crm-admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:50:58,879 basehttp 12249 139800752523008 "GET /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 200 2267
+INFO 2022-06-04 16:51:20,984 basehttp 12249 139800752523008 "POST /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 200 2462
+INFO 2022-06-04 16:51:49,442 basehttp 12249 139800752523008 "POST /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 16:51:49,495 basehttp 12249 139800752523008 "GET /crm-admin/ HTTP/1.1" 200 2241
+INFO 2022-06-04 17:00:00,889 autoreload 12249 139800816654144 /home/lahou/DA-Python/P12/crm/client/models.py changed, reloading.
+INFO 2022-06-04 17:00:01,429 autoreload 12564 139885372716864 Watching for file changes with StatReloader
+INFO 2022-06-04 17:03:03,972 autoreload 12564 139885372716864 /home/lahou/DA-Python/P12/crm/client/admin.py changed, reloading.
+INFO 2022-06-04 17:03:04,791 autoreload 12657 140144864991040 Watching for file changes with StatReloader
+INFO 2022-06-04 17:03:10,887 basehttp 12657 140144800859904 "GET /crm-admin/ HTTP/1.1" 200 2241
+INFO 2022-06-04 17:03:13,247 basehttp 12657 140144800859904 "GET /crm-admin/logout/ HTTP/1.1" 200 1579
+INFO 2022-06-04 17:03:15,683 basehttp 12657 140144800859904 "GET /crm-admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 17:03:15,739 basehttp 12657 140144800859904 "GET /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 200 2267
+INFO 2022-06-04 17:03:17,823 basehttp 12657 140144800859904 "POST /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 17:03:17,891 basehttp 12657 140144800859904 "GET /crm-admin/ HTTP/1.1" 200 4797
+ERROR 2022-06-04 17:03:23,013 log 12657 140144800859904 Internal Server Error: /crm-admin/client/client/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ERREUR:  la colonne client_client.converted n'existe pas
+LINE 1: ...client"."mobile", "client_client"."company_name", "client_cl...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 2063, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 302, in __len__
+    self._fetch_all()
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ERREUR:  la colonne client_client.converted n'existe pas
+LINE 1: ...client"."mobile", "client_client"."company_name", "client_cl...
+                                                             ^
+
+ERROR 2022-06-04 17:03:23,023 basehttp 12657 140144800859904 "GET /crm-admin/client/client/ HTTP/1.1" 500 155841
+INFO 2022-06-04 17:04:46,159 autoreload 12955 140222761727808 Watching for file changes with StatReloader
+INFO 2022-06-04 17:04:51,390 basehttp 12955 140222629148416 "GET /crm-admin/client/client/ HTTP/1.1" 200 5409
+INFO 2022-06-04 17:04:51,511 basehttp 12955 140222629148416 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 17:04:53,801 basehttp 12955 140222629148416 "GET /crm-admin/client/client/ HTTP/1.1" 200 5409
+INFO 2022-06-04 17:04:53,921 basehttp 12955 140222629148416 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 17:04:58,276 basehttp 12955 140222629148416 "GET /crm-admin/client/client/ HTTP/1.1" 200 5409
+INFO 2022-06-04 17:04:58,366 basehttp 12955 140222587184896 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 17:04:59,763 basehttp 12955 140222629148416 "GET /crm-admin/client/client/add/ HTTP/1.1" 200 11280
+INFO 2022-06-04 17:04:59,932 basehttp 12955 140222587184896 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 17:04:59,948 basehttp 12955 140222587184896 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2022-06-04 17:16:27,722 autoreload 12955 140222761727808 /home/lahou/DA-Python/P12/crm/contract/models.py changed, reloading.
+INFO 2022-06-04 17:16:28,313 autoreload 13182 140392518940480 Watching for file changes with StatReloader
+INFO 2022-06-04 17:18:12,665 autoreload 13182 140392518940480 /home/lahou/DA-Python/P12/crm/contract/models.py changed, reloading.
+INFO 2022-06-04 17:18:13,382 autoreload 13282 139983417341760 Watching for file changes with StatReloader
+INFO 2022-06-04 17:19:52,148 autoreload 13282 139983417341760 /home/lahou/DA-Python/P12/crm/contract/models.py changed, reloading.
+INFO 2022-06-04 17:19:52,790 autoreload 13342 140553784387392 Watching for file changes with StatReloader
+INFO 2022-06-04 17:20:15,987 autoreload 13342 140553784387392 /home/lahou/DA-Python/P12/crm/base_admin/apps.py changed, reloading.
+INFO 2022-06-04 17:20:16,606 autoreload 13396 139789762410304 Watching for file changes with StatReloader
+INFO 2022-06-04 20:23:41,172 autoreload 13396 139789762410304 /home/lahou/DA-Python/P12/crm/contract/admin.py changed, reloading.
+INFO 2022-06-04 20:23:41,777 autoreload 14226 139939007489856 Watching for file changes with StatReloader
+INFO 2022-06-04 20:31:13,951 autoreload 14226 139939007489856 /home/lahou/DA-Python/P12/crm/event/models.py changed, reloading.
+INFO 2022-06-04 20:31:14,559 autoreload 14438 140292211308352 Watching for file changes with StatReloader
+INFO 2022-06-04 20:31:52,502 autoreload 14438 140292211308352 /home/lahou/DA-Python/P12/crm/event/admin.py changed, reloading.
+INFO 2022-06-04 20:31:53,223 autoreload 14516 140465799329600 Watching for file changes with StatReloader
+INFO 2022-06-04 20:32:56,945 autoreload 14759 139674379511616 Watching for file changes with StatReloader
+INFO 2022-06-04 20:33:02,515 basehttp 14759 139674315380480 "GET /crm-admin/client/client/add/ HTTP/1.1" 200 12362
+INFO 2022-06-04 20:33:02,754 basehttp 14759 139674315380480 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:14,841 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 6513
+INFO 2022-06-04 20:33:15,017 basehttp 14759 139674315380480 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:19,139 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 6491
+INFO 2022-06-04 20:33:19,254 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:22,599 basehttp 14759 139674315380480 "GET /crm-admin/auth/group/ HTTP/1.1" 200 8436
+INFO 2022-06-04 20:33:22,766 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:25,936 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9392
+INFO 2022-06-04 20:33:26,090 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:29,015 basehttp 14759 139674315380480 "GET /crm-admin/event/event/ HTTP/1.1" 200 6480
+INFO 2022-06-04 20:33:29,164 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:31,679 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 6491
+INFO 2022-06-04 20:33:31,805 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:33:34,007 basehttp 14759 139674315380480 "GET /crm-admin/client/client/add/ HTTP/1.1" 200 12362
+INFO 2022-06-04 20:33:34,157 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:35:16,839 basehttp 14759 139674315380480 "POST /crm-admin/client/client/add/ HTTP/1.1" 200 12633
+INFO 2022-06-04 20:35:16,953 basehttp 14759 139674064508672 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:35:27,544 basehttp 14759 139674064508672 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO 2022-06-04 20:36:32,355 basehttp 14759 139674315380480 "POST /crm-admin/client/client/add/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:36:32,481 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 7917
+INFO 2022-06-04 20:36:32,597 basehttp 14759 139674315380480 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:36:37,180 basehttp 14759 139674315380480 "GET /crm-admin/client/client/1/change/ HTTP/1.1" 200 12795
+INFO 2022-06-04 20:36:37,324 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:36:43,413 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 7691
+INFO 2022-06-04 20:36:43,543 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:37:11,432 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9392
+INFO 2022-06-04 20:37:11,566 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:37:21,745 basehttp 14759 139674315380480 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 18562
+INFO 2022-06-04 20:37:21,853 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:37:57,382 basehttp 14759 139674315380480 "POST /crm-admin/user/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:37:57,545 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9645
+INFO 2022-06-04 20:37:57,704 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:38:05,514 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 7691
+INFO 2022-06-04 20:38:05,730 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:38:08,179 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 6513
+INFO 2022-06-04 20:38:08,297 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:38:10,116 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/add/ HTTP/1.1" 200 12485
+INFO 2022-06-04 20:38:10,238 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:39:02,861 basehttp 14759 139674315380480 "POST /crm-admin/contract/contract/add/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:39:02,963 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 7955
+INFO 2022-06-04 20:39:03,160 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:39:16,010 basehttp 14759 139674315380480 "GET /crm-admin/event/event/ HTTP/1.1" 200 6480
+INFO 2022-06-04 20:39:16,167 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:39:18,804 basehttp 14759 139674315380480 "GET /crm-admin/event/event/add/ HTTP/1.1" 200 12149
+INFO 2022-06-04 20:39:18,903 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:40:39,645 basehttp 14759 139674315380480 "POST /crm-admin/event/event/add/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:40:39,746 basehttp 14759 139674315380480 "GET /crm-admin/event/event/ HTTP/1.1" 200 7907
+INFO 2022-06-04 20:40:39,855 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:40:45,112 basehttp 14759 139674315380480 "GET /crm-admin/event/event/1/change/ HTTP/1.1" 200 12541
+INFO 2022-06-04 20:40:45,210 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:40:51,342 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 7691
+INFO 2022-06-04 20:40:51,481 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:40:54,396 basehttp 14759 139674315380480 "GET /crm-admin/client/client/1/change/ HTTP/1.1" 200 12802
+INFO 2022-06-04 20:40:54,545 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:40:58,506 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 7722
+INFO 2022-06-04 20:40:58,652 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:41:01,546 basehttp 14759 139674315380480 "GET /crm-admin/event/event/ HTTP/1.1" 200 7680
+INFO 2022-06-04 20:41:01,651 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:41:05,961 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9415
+INFO 2022-06-04 20:41:06,045 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:41:09,279 basehttp 14759 139674315380480 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 18633
+INFO 2022-06-04 20:41:09,422 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:41:23,013 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9415
+INFO 2022-06-04 20:41:23,142 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:41:36,575 basehttp 14759 139674315380480 "GET /crm-admin/user/user/add/ HTTP/1.1" 200 9169
+INFO 2022-06-04 20:41:36,717 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:42:00,179 basehttp 14759 139674315380480 "POST /crm-admin/user/user/add/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:42:00,393 basehttp 14759 139674315380480 "GET /crm-admin/user/user/3/change/ HTTP/1.1" 200 18784
+INFO 2022-06-04 20:42:00,663 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:42:42,108 basehttp 14759 139674315380480 "POST /crm-admin/user/user/3/change/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:42:42,205 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9973
+INFO 2022-06-04 20:42:42,416 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:42:53,589 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 7722
+INFO 2022-06-04 20:42:53,679 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:42:56,273 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/1/change/ HTTP/1.1" 200 12921
+INFO 2022-06-04 20:42:56,376 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:43:13,662 basehttp 14759 139674315380480 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 7722
+INFO 2022-06-04 20:43:13,799 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:43:16,034 basehttp 14759 139674315380480 "GET /crm-admin/client/client/ HTTP/1.1" 200 7691
+INFO 2022-06-04 20:43:16,128 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:43:18,962 basehttp 14759 139674315380480 "GET /crm-admin/client/client/1/change/ HTTP/1.1" 200 12851
+INFO 2022-06-04 20:43:19,092 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:43:30,587 basehttp 14759 139674315380480 "GET /crm-admin/user/user/ HTTP/1.1" 200 9743
+INFO 2022-06-04 20:43:30,693 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:43:33,558 basehttp 14759 139674315380480 "GET /crm-admin/user/user/3/change/ HTTP/1.1" 200 18597
+INFO 2022-06-04 20:43:33,687 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-04 20:43:47,944 basehttp 14759 139674315380480 "GET /crm-admin/logout/ HTTP/1.1" 200 1579
+INFO 2022-06-04 20:43:50,122 basehttp 14759 139674315380480 "GET /crm-admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:43:50,170 basehttp 14759 139674315380480 "GET /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 200 2267
+INFO 2022-06-04 20:44:03,010 basehttp 14759 139674315380480 "POST /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 200 2465
+INFO 2022-06-04 20:44:13,966 basehttp 14759 139674315380480 "POST /crm-admin/login/?next=/crm-admin/ HTTP/1.1" 302 0
+INFO 2022-06-04 20:44:14,032 basehttp 14759 139674315380480 "GET /crm-admin/ HTTP/1.1" 200 7687
+INFO 2022-06-04 20:44:20,284 basehttp 14759 139674315380480 "GET /crm-admin/event/event/ HTTP/1.1" 200 7680
+INFO 2022-06-04 20:44:20,384 basehttp 14759 139674056115968 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
