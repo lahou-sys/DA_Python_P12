@@ -1,19 +1,17 @@
 from django.db import models
-from django.conf import settings
 from client.models import Client
 
 
 class Contract(models.Model):
-    sales_contact = models.ForeignKey(
-        to=settings.AUTH_USER_MODEL, on_delete=models.PROTECT)
+    """ Contract model    """
     client = models.ForeignKey(
-        to=Client, on_delete=models.SET_NULL, null=True)
+        to=Client, on_delete=models.CASCADE, related_name='contracts')
     project_name = models.CharField(max_length=100)
     signed = models.BooleanField(default=False)
     amount = models.FloatField(null=True)
     payment_due_date = models.DateField(null=True)
     date_created = models.DateTimeField(auto_now_add=True)
-    date_updated = models.DateTimeField(null=True)
+    date_updated = models.DateTimeField(auto_now=True)
 
     class Meta:
         ordering = ['-date_updated', '-date_created']

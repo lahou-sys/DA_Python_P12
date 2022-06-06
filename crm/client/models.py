@@ -14,7 +14,7 @@ class Client(models.Model):
     company_name = models.CharField(max_length=250)
     converted = models.BooleanField(default=False)
     date_created = models.DateTimeField(auto_now_add=True)
-    date_updated = models.DateTimeField(null=True)
+    date_updated = models.DateTimeField(auto_now=True)
 
     class Meta:
         ordering = ['-date_updated', '-date_created']

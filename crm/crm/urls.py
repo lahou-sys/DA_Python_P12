@@ -14,25 +14,30 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+#from rest_framework.authtoken.views import obtain_auth_token
 
 from base_admin.admin import base_admin_interface
 
+from rest_framework.routers import SimpleRouter
+
+from client import views as views_client
+from contract import views as views_contract
+from event import views as views_event
+
+router = SimpleRouter()
+
+router.register('clients', views_client.ClientViewSet)
+router.register('contracts', views_contract.ContractViewSet)
+router.register('events', views_event.EventViewSet)
+
+app_name = 'api'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('crm-admin/', base_admin_interface.urls)
+    path('crm-admin/', base_admin_interface.urls),
+    path('api/', include((router.urls, app_name))),
+    #path('auth-token/', obtain_auth_token),
+    path('', include('user.urls')),
+
 ]
-
-
-# from django.urls import path, include
-# from rest_framework.authtoken.views import obtain_auth_token
-
-# from epicevents.basic_admin.admin import basic_admin_site
-
-
-# urlpatterns = [
-#     path('auth-token/', obtain_auth_token),
-#     path('api/', include('config.api_router')),
-#     # path('django-admin/', admin.site.urls),
-#     path('api-admin/', basic_admin_site.urls),
-# ]
