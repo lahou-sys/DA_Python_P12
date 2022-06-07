@@ -5336,3 +5336,411 @@ WARNING 2022-06-07 00:09:39,051 log 43766 140318619887360 Unauthorized: /api/cli
 WARNING 2022-06-07 00:09:39,051 basehttp 43766 140318619887360 "GET /api/clients/1/ HTTP/1.1" 401 183
 INFO 2022-06-07 00:09:45,611 basehttp 43766 140318610446080 "POST /auth-token/ HTTP/1.1" 200 483
 INFO 2022-06-07 00:09:49,782 basehttp 43766 140318619887360 "GET /api/clients/1/ HTTP/1.1" 200 461
+INFO 2022-06-07 00:14:11,684 basehttp 43766 140318610446080 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:14:19,844 basehttp 43766 140318619887360 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 00:14:47,707 basehttp 43766 140318619887360 "GET /api/events/1/ HTTP/1.1" 200 422
+WARNING 2022-06-07 00:15:03,177 log 43766 140318619887360 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:15:03,177 basehttp 43766 140318619887360 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:15:32,439 basehttp 43766 140318619887360 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 00:15:56,766 basehttp 43766 140318393497344 "GET /crm-admin/event/event/ HTTP/1.1" 200 12447
+INFO 2022-06-07 00:15:56,890 basehttp 43766 140318393497344 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:17:41,606 basehttp 43766 140318610446080 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:17:48,891 basehttp 43766 140318619887360 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 00:18:01,121 basehttp 43766 140318619887360 "GET /api/events/1/ HTTP/1.1" 200 422
+WARNING 2022-06-07 00:18:15,521 log 43766 140318619887360 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:18:15,522 basehttp 43766 140318619887360 "PUT /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:18:45,768 log 43766 140318619887360 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:18:45,769 basehttp 43766 140318619887360 "PATCH /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:20:16,239 autoreload 43766 140318688171840 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:20:17,243 autoreload 44238 140519362115392 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:20:20,734 log 44238 140519293830912 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:20:20,735 basehttp 44238 140519293830912 "PATCH /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:21:01,750 autoreload 44238 140519362115392 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:21:02,769 autoreload 44328 139681302689600 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:21:08,490 log 44328 139681234405120 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:21:08,490 basehttp 44328 139681234405120 "PATCH /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:22:43,355 log 44328 139681234405120 Unauthorized: /api/events/
+WARNING 2022-06-07 00:22:43,355 basehttp 44328 139681234405120 "GET /api/events/ HTTP/1.1" 401 183
+INFO 2022-06-07 00:22:53,681 basehttp 44328 139681225488128 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:22:59,767 basehttp 44328 139681234405120 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 00:23:25,594 basehttp 44328 139681234405120 "GET /api/events/1/ HTTP/1.1" 200 422
+INFO 2022-06-07 00:26:15,672 autoreload 44328 139681302689600 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:26:16,375 autoreload 44594 139778818901824 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:26:28,801 log 44594 139778750617344 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:26:28,802 basehttp 44594 139778750617344 "GET /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:26:35,882 log 44594 139778750617344 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:26:35,882 basehttp 44594 139778750617344 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:27:58,882 autoreload 44594 139778818901824 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:28:00,028 autoreload 44698 139625477515072 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:28:04,623 log 44698 139625409230592 Unauthorized: /api/events/1/
+WARNING 2022-06-07 00:28:04,627 basehttp 44698 139625409230592 "PUT /api/events/1/ HTTP/1.1" 401 183
+INFO 2022-06-07 00:28:11,704 basehttp 44698 139625400313600 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:28:16,932 basehttp 44698 139625409230592 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 00:28:49,928 basehttp 44698 139625409230592 "GET /api/events/1/ HTTP/1.1" 200 422
+INFO 2022-06-07 00:28:56,267 basehttp 44698 139625409230592 "PUT /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:30:54,105 autoreload 44698 139625477515072 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:30:54,877 autoreload 44888 140144497829696 Watching for file changes with StatReloader
+INFO 2022-06-07 00:32:09,912 autoreload 44888 140144497829696 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:32:11,037 autoreload 44947 140028503328576 Watching for file changes with StatReloader
+INFO 2022-06-07 00:32:17,165 basehttp 44947 140028435044096 "GET /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:32:24,130 basehttp 44947 140028425602816 "GET /crm-admin/auth/group/ HTTP/1.1" 200 8436
+INFO 2022-06-07 00:32:24,294 basehttp 44947 140028425602816 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:32:28,250 basehttp 44947 140028425602816 "GET /crm-admin/auth/group/1/change/ HTTP/1.1" 200 12207
+INFO 2022-06-07 00:32:28,407 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:32:31,761 basehttp 44947 140028425602816 "GET /crm-admin/user/user/ HTTP/1.1" 200 10655
+INFO 2022-06-07 00:32:31,886 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:32:36,509 basehttp 44947 140028425602816 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 19890
+INFO 2022-06-07 00:32:36,615 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:32:48,601 basehttp 44947 140028425602816 "POST /crm-admin/user/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-06-07 00:32:48,731 basehttp 44947 140028425602816 "GET /crm-admin/user/user/ HTTP/1.1" 200 10883
+INFO 2022-06-07 00:32:48,851 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+WARNING 2022-06-07 00:32:54,081 log 44947 140028435044096 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:32:54,082 basehttp 44947 140028435044096 "GET /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:33:21,583 basehttp 44947 140028197984000 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:33:27,328 basehttp 44947 140028435044096 "GET /api/events/me/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:33:32,701 basehttp 44947 140028435044096 "GET /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:33:40,124 basehttp 44947 140028435044096 "PUT /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:33:56,601 basehttp 44947 140028425602816 "GET /crm-admin/user/user/2/change/ HTTP/1.1" 200 19881
+INFO 2022-06-07 00:33:56,774 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:34:03,917 basehttp 44947 140028425602816 "POST /crm-admin/user/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-06-07 00:34:04,020 basehttp 44947 140028425602816 "GET /crm-admin/user/user/ HTTP/1.1" 200 10883
+INFO 2022-06-07 00:34:04,103 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:34:12,532 basehttp 44947 140028197984000 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:34:16,460 basehttp 44947 140028435044096 "GET /api/contracts/ HTTP/1.1" 200 356
+INFO 2022-06-07 00:34:23,493 basehttp 44947 140028435044096 "GET /api/contracts/ HTTP/1.1" 200 356
+WARNING 2022-06-07 00:34:34,493 log 44947 140028435044096 Forbidden: /api/contracts/1/
+WARNING 2022-06-07 00:34:34,493 basehttp 44947 140028435044096 "GET /api/contracts/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:34:41,345 log 44947 140028435044096 Forbidden: /api/clients/1/
+WARNING 2022-06-07 00:34:41,346 basehttp 44947 140028435044096 "GET /api/clients/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:34:51,002 log 44947 140028435044096 Forbidden: /api/clients/
+WARNING 2022-06-07 00:34:51,002 basehttp 44947 140028435044096 "GET /api/clients/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:34:58,746 basehttp 44947 140028435044096 "GET /api/contracts/ HTTP/1.1" 200 356
+INFO 2022-06-07 00:35:19,800 basehttp 44947 140028435044096 "GET /api/contracts/me/ HTTP/1.1" 200 52
+INFO 2022-06-07 00:35:25,492 basehttp 44947 140028435044096 "GET /api/contracts/ HTTP/1.1" 200 356
+INFO 2022-06-07 00:35:31,947 basehttp 44947 140028425602816 "GET /crm-admin/user/user/4/change/ HTTP/1.1" 200 19881
+INFO 2022-06-07 00:35:32,094 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:36:32,162 basehttp 44947 140028425602816 "GET /crm-admin/event/event/ HTTP/1.1" 200 12447
+INFO 2022-06-07 00:36:32,342 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:36:39,759 basehttp 44947 140028425602816 "GET /crm-admin/client/client/ HTTP/1.1" 200 12681
+INFO 2022-06-07 00:36:39,903 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:36:59,078 basehttp 44947 140028425602816 "GET /crm-admin/contract/contract/ HTTP/1.1" 200 13171
+INFO 2022-06-07 00:36:59,171 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:37:03,004 basehttp 44947 140028425602816 "GET /crm-admin/event/event/ HTTP/1.1" 200 12447
+INFO 2022-06-07 00:37:03,144 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:37:06,810 basehttp 44947 140028425602816 "GET /crm-admin/user/user/ HTTP/1.1" 200 10655
+INFO 2022-06-07 00:37:06,951 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:37:09,909 basehttp 44947 140028425602816 "GET /crm-admin/user/user/4/change/ HTTP/1.1" 200 19881
+INFO 2022-06-07 00:37:10,029 basehttp 44947 140028214769408 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:37:51,968 basehttp 44947 140028435044096 "GET /api/contracts/ HTTP/1.1" 200 356
+INFO 2022-06-07 00:38:01,677 autoreload 45373 140227263027008 Watching for file changes with StatReloader
+INFO 2022-06-07 00:38:10,831 basehttp 45373 140227125442304 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:38:16,423 basehttp 45373 140227117049600 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:39:28,648 autoreload 45373 140227263027008 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:39:29,440 autoreload 45491 139754466191168 Watching for file changes with StatReloader
+INFO 2022-06-07 00:39:36,400 basehttp 45491 139754397906688 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:39:39,590 basehttp 45491 139754397906688 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:40:14,773 autoreload 45491 139754466191168 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:40:15,938 autoreload 45575 140160991213376 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:40:19,122 log 45575 140160922928896 Forbidden: /api/events/
+WARNING 2022-06-07 00:40:19,127 basehttp 45575 140160922928896 "GET /api/events/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:40:39,532 basehttp 45575 140160914011904 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:40:44,504 basehttp 45575 140160922928896 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:40:52,273 basehttp 45575 140160922928896 "GET /api/events/1/ HTTP/1.1" 200 423
+WARNING 2022-06-07 00:40:59,210 log 45575 140160922928896 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:40:59,210 basehttp 45575 140160922928896 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:41:39,651 autoreload 45763 139642968807232 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:41:46,257 log 45763 139642900522752 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:41:46,258 basehttp 45763 139642900522752 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:42:36,459 autoreload 45763 139642968807232 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:42:37,226 autoreload 45836 140511368283968 Watching for file changes with StatReloader
+INFO 2022-06-07 00:43:08,909 autoreload 45836 140511368283968 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:43:09,641 autoreload 45884 140021470279488 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:43:15,398 log 45884 140021401995008 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:43:15,399 basehttp 45884 140021401995008 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:49:50,721 autoreload 45884 140021470279488 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:49:51,467 autoreload 46047 140344081676096 Watching for file changes with StatReloader
+WARNING 2022-06-07 00:49:57,604 log 46047 140344013391616 Unauthorized: /api/events/1/
+WARNING 2022-06-07 00:49:57,608 basehttp 46047 140344013391616 "PUT /api/events/1/ HTTP/1.1" 401 183
+INFO 2022-06-07 00:50:04,231 basehttp 46047 140344004474624 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:50:13,510 basehttp 46047 140344013391616 "GET /api/events/1/ HTTP/1.1" 200 423
+ERROR 2022-06-07 00:50:21,432 log 46047 140344013391616 Internal Server Error: /api/events/1/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/lahou/DA-Python/P12/crm/event/permissions.py", line 16, in has_permission
+    if request.user.groups.filter(name='sales').exists() and request.user == obj.contract.client.sales_contact:
+AttributeError: 'NoneType' object has no attribute 'contract'
+ERROR 2022-06-07 00:50:21,433 basehttp 46047 140344013391616 "PUT /api/events/1/ HTTP/1.1" 500 105102
+INFO 2022-06-07 00:52:38,299 autoreload 46047 140344081676096 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:52:39,083 autoreload 46227 140534944868160 Watching for file changes with StatReloader
+INFO 2022-06-07 00:52:49,030 autoreload 46227 140534944868160 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:52:49,738 autoreload 46279 140359692318528 Watching for file changes with StatReloader
+INFO 2022-06-07 00:52:56,709 basehttp 46279 140359624034048 "PUT /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:53:32,676 basehttp 46279 140359614592768 "POST /auth-token/ HTTP/1.1" 200 483
+WARNING 2022-06-07 00:53:47,419 log 46279 140359624034048 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:53:47,419 basehttp 46279 140359624034048 "GET /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:53:53,641 log 46279 140359624034048 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:53:53,641 basehttp 46279 140359624034048 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:54:10,519 basehttp 46279 140359397013248 "POST /crm-admin/user/user/4/change/ HTTP/1.1" 302 0
+INFO 2022-06-07 00:54:10,748 basehttp 46279 140359397013248 "GET /crm-admin/user/user/ HTTP/1.1" 200 10883
+INFO 2022-06-07 00:54:10,999 basehttp 46279 140359397013248 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+WARNING 2022-06-07 00:54:17,999 log 46279 140359624034048 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:54:18,001 basehttp 46279 140359624034048 "PUT /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:54:21,980 log 46279 140359624034048 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:54:21,980 basehttp 46279 140359624034048 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:54:34,236 basehttp 46279 140359614592768 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:54:39,811 basehttp 46279 140359624034048 "GET /api/events/me/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:54:46,150 basehttp 46279 140359624034048 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:54:51,644 basehttp 46279 140359624034048 "GET /api/events/1/ HTTP/1.1" 200 423
+WARNING 2022-06-07 00:54:56,770 log 46279 140359624034048 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:54:56,771 basehttp 46279 140359624034048 "PUT /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:55:46,845 autoreload 46279 140359692318528 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:55:47,795 autoreload 46657 140280646969152 Watching for file changes with StatReloader
+INFO 2022-06-07 00:55:57,003 basehttp 46657 140280578684672 "PUT /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:56:46,804 basehttp 46657 140280578684672 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:56:56,946 basehttp 46657 140280569243392 "GET /crm-admin/user/user/4/change/ HTTP/1.1" 200 19890
+INFO 2022-06-07 00:56:57,095 basehttp 46657 140280569243392 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:57:07,897 basehttp 46657 140280569243392 "POST /crm-admin/user/user/4/change/ HTTP/1.1" 302 0
+INFO 2022-06-07 00:57:08,020 basehttp 46657 140280569243392 "GET /crm-admin/user/user/ HTTP/1.1" 200 10883
+INFO 2022-06-07 00:57:08,146 basehttp 46657 140280569243392 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-07 00:57:22,174 basehttp 46657 140280559802112 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:57:27,730 basehttp 46657 140280578684672 "GET /api/events/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:57:34,343 basehttp 46657 140280578684672 "GET /api/events/me/ HTTP/1.1" 200 52
+WARNING 2022-06-07 00:57:39,730 log 46657 140280578684672 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:57:39,732 basehttp 46657 140280578684672 "GET /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:57:45,480 log 46657 140280578684672 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:57:45,481 basehttp 46657 140280578684672 "PUT /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:57:51,465 log 46657 140280578684672 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:57:51,466 basehttp 46657 140280578684672 "PATCH /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 00:57:55,835 log 46657 140280578684672 Forbidden: /api/events/3/
+WARNING 2022-06-07 00:57:55,835 basehttp 46657 140280578684672 "DELETE /api/events/3/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:58:05,708 basehttp 46657 140280559802112 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 00:58:11,491 basehttp 46657 140280578684672 "GET /api/events/me/ HTTP/1.1" 200 315
+INFO 2022-06-07 00:58:16,972 basehttp 46657 140280578684672 "GET /api/events/1/ HTTP/1.1" 200 423
+INFO 2022-06-07 00:58:21,607 basehttp 46657 140280578684672 "PUT /api/events/1/ HTTP/1.1" 200 423
+WARNING 2022-06-07 00:58:28,505 log 46657 140280578684672 Forbidden: /api/events/1/
+WARNING 2022-06-07 00:58:28,506 basehttp 46657 140280578684672 "PATCH /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 00:59:06,972 autoreload 46657 140280646969152 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 00:59:07,840 autoreload 47109 139659456206656 Watching for file changes with StatReloader
+INFO 2022-06-07 00:59:13,909 basehttp 47109 139659317344000 "PATCH /api/events/1/ HTTP/1.1" 200 422
+WARNING 2022-06-07 00:59:50,555 log 47109 139659317344000 Forbidden: /api/events/3/
+WARNING 2022-06-07 00:59:50,555 basehttp 47109 139659317344000 "DELETE /api/events/3/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:00:08,748 autoreload 47109 139659456206656 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 01:00:09,444 autoreload 47211 140435888727872 Watching for file changes with StatReloader
+WARNING 2022-06-07 01:00:33,423 log 47211 140435820443392 Not Found: /api/events/3/
+WARNING 2022-06-07 01:00:33,425 basehttp 47211 140435820443392 "DELETE /api/events/3/ HTTP/1.1" 404 25
+INFO 2022-06-07 01:00:41,318 basehttp 47211 140435820443392 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 01:01:16,930 basehttp 47211 140435820443392 "GET /api/contracts/ HTTP/1.1" 200 356
+WARNING 2022-06-07 01:01:27,298 log 47211 140435820443392 Forbidden: /api/contracts/1/
+WARNING 2022-06-07 01:01:27,299 basehttp 47211 140435820443392 "GET /api/contracts/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:01:34,341 basehttp 47211 140435820443392 "GET /api/clients/ HTTP/1.1" 200 502
+INFO 2022-06-07 01:01:40,309 basehttp 47211 140435820443392 "GET /api/clients/1/ HTTP/1.1" 200 461
+INFO 2022-06-07 01:01:46,904 basehttp 47211 140435811002112 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 01:01:55,988 basehttp 47211 140435820443392 "GET /api/contracts/1/ HTTP/1.1" 200 448
+INFO 2022-06-07 01:02:00,773 basehttp 47211 140435820443392 "GET /api/contracts/me/ HTTP/1.1" 200 356
+INFO 2022-06-07 01:02:07,221 basehttp 47211 140435820443392 "GET /api/contracts/1/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 01:02:16,053 basehttp 47211 140435820443392 "GET /api/contracts/1/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 01:02:24,908 basehttp 47211 140435820443392 "PUT /api/contracts/1/ HTTP/1.1" 200 448
+INFO 2022-06-07 01:02:34,126 basehttp 47211 140435820443392 "PATCH /api/contracts/1/ HTTP/1.1" 200 448
+INFO 2022-06-07 01:03:03,591 basehttp 47211 140435820443392 "GET /api/clients/prospects/ HTTP/1.1" 200 278
+INFO 2022-06-07 01:03:09,911 basehttp 47211 140435820443392 "GET /api/clients/1/ HTTP/1.1" 200 461
+ERROR 2022-06-07 01:03:15,689 log 47211 140435820443392 Internal Server Error: /api/clients/2/contracts/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/crm/client/views.py", line 40, in contracts
+    self.check_object_permissions(request, self.get_object())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/generics.py", line 99, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 345, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/lahou/DA-Python/P12/crm/client/permissions.py", line 19, in has_object_permission
+    client_to_view = int(client_id[-2])
+ValueError: invalid literal for int() with base 10: 'contracts'
+ERROR 2022-06-07 01:03:15,692 basehttp 47211 140435820443392 "GET /api/clients/2/contracts/ HTTP/1.1" 500 110351
+ERROR 2022-06-07 01:03:50,936 log 47211 140435820443392 Internal Server Error: /api/clients/1/contracts/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/crm/client/views.py", line 40, in contracts
+    self.check_object_permissions(request, self.get_object())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/generics.py", line 99, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 345, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/lahou/DA-Python/P12/crm/client/permissions.py", line 19, in has_object_permission
+    client_to_view = int(client_id[-2])
+ValueError: invalid literal for int() with base 10: 'contracts'
+ERROR 2022-06-07 01:03:50,937 basehttp 47211 140435820443392 "GET /api/clients/1/contracts/ HTTP/1.1" 500 110345
+INFO 2022-06-07 01:08:55,017 autoreload 47211 140435888727872 /home/lahou/DA-Python/P12/crm/client/permissions.py changed, reloading.
+INFO 2022-06-07 01:08:55,762 autoreload 47620 140418925594432 Watching for file changes with StatReloader
+WARNING 2022-06-07 01:09:02,233 log 47620 140418788357888 Unauthorized: /api/clients/1/contracts/
+WARNING 2022-06-07 01:09:02,238 basehttp 47620 140418788357888 "GET /api/clients/1/contracts/ HTTP/1.1" 401 183
+INFO 2022-06-07 01:09:07,677 basehttp 47620 140418779965184 "POST /auth-token/ HTTP/1.1" 200 483
+ERROR 2022-06-07 01:09:26,504 log 47620 140418788357888 Internal Server Error: /api/clients/1/contracts/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/crm/client/views.py", line 40, in contracts
+    self.check_object_permissions(request, self.get_object())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/generics.py", line 99, in get_object
+    self.check_object_permissions(self.request, obj)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 345, in check_object_permissions
+    if not permission.has_object_permission(request, self, obj):
+  File "/home/lahou/DA-Python/P12/crm/client/permissions.py", line 20, in has_object_permission
+    client_to_view = int(client_id[-2])
+ValueError: invalid literal for int() with base 10: 'contracts'
+ERROR 2022-06-07 01:09:26,507 basehttp 47620 140418788357888 "GET /api/clients/1/contracts/ HTTP/1.1" 500 110295
+INFO 2022-06-07 01:09:48,309 basehttp 47620 140418788357888 "GET /api/clients/1/ HTTP/1.1" 200 461
+INFO 2022-06-07 01:11:16,622 autoreload 47620 140418925594432 /home/lahou/DA-Python/P12/crm/client/permissions.py changed, reloading.
+INFO 2022-06-07 01:11:17,787 autoreload 47791 140393353619264 Watching for file changes with StatReloader
+INFO 2022-06-07 01:11:29,237 basehttp 47791 140393218225920 "GET /api/clients/1/ HTTP/1.1" 200 461
+INFO 2022-06-07 01:11:34,607 basehttp 47791 140393218225920 "GET /api/clients/1/contracts/ HTTP/1.1" 200 356
+WARNING 2022-06-07 01:11:50,072 log 47791 140393218225920 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-07 01:11:50,072 basehttp 47791 140393218225920 "POST /api/clients/1/contracts/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:13:22,289 autoreload 47791 140393353619264 /home/lahou/DA-Python/P12/crm/client/permissions.py changed, reloading.
+INFO 2022-06-07 01:13:23,435 autoreload 47972 139778119046976 Watching for file changes with StatReloader
+WARNING 2022-06-07 01:13:27,229 log 47972 139778050762496 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-07 01:13:27,229 basehttp 47972 139778050762496 "POST /api/clients/1/contracts/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:14:19,216 autoreload 47972 139778119046976 /home/lahou/DA-Python/P12/crm/client/permissions.py changed, reloading.
+INFO 2022-06-07 01:14:20,270 autoreload 48064 140615565219648 Watching for file changes with StatReloader
+INFO 2022-06-07 01:14:27,929 basehttp 48064 140615496935168 "POST /auth-token/ HTTP/1.1" 200 483
+WARNING 2022-06-07 01:14:36,047 log 48064 140615417329408 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-07 01:14:36,048 basehttp 48064 140615417329408 "POST /api/clients/1/contracts/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:16:08,307 basehttp 48064 140615417329408 "GET /api/clients/1/contracts/ HTTP/1.1" 200 356
+WARNING 2022-06-07 01:16:21,139 log 48064 140615417329408 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-07 01:16:21,141 basehttp 48064 140615417329408 "POST /api/clients/1/contracts/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:16:48,355 autoreload 48064 140615565219648 /home/lahou/DA-Python/P12/crm/client/permissions.py changed, reloading.
+INFO 2022-06-07 01:16:49,190 autoreload 48206 139836104722240 Watching for file changes with StatReloader
+INFO 2022-06-07 01:16:53,721 basehttp 48206 139836036437760 "POST /api/clients/1/contracts/ HTTP/1.1" 201 422
+INFO 2022-06-07 01:17:39,814 autoreload 48206 139836104722240 /home/lahou/DA-Python/P12/crm/client/permissions.py changed, reloading.
+INFO 2022-06-07 01:17:40,515 autoreload 48281 140597385447232 Watching for file changes with StatReloader
+INFO 2022-06-07 01:18:13,152 basehttp 48281 140597317162752 "PUT /api/clients/1/ HTTP/1.1" 200 569
+INFO 2022-06-07 01:18:27,565 basehttp 48281 140597317162752 "PATCH /api/clients/1/ HTTP/1.1" 200 568
+INFO 2022-06-07 01:18:38,652 basehttp 48281 140597317162752 "GET /api/clients/1/contracts/ HTTP/1.1" 200 660
+INFO 2022-06-07 01:18:54,649 basehttp 48281 140597317162752 "GET /api/contracts/ HTTP/1.1" 200 660
+INFO 2022-06-07 01:18:59,435 basehttp 48281 140597317162752 "GET /api/contracts/me/ HTTP/1.1" 200 660
+INFO 2022-06-07 01:19:04,175 basehttp 48281 140597317162752 "GET /api/contracts/1/ HTTP/1.1" 200 448
+WARNING 2022-06-07 01:19:10,696 log 48281 140597317162752 Bad Request: /api/contracts/1/events/
+WARNING 2022-06-07 01:19:10,696 basehttp 48281 140597317162752 "POST /api/contracts/1/events/ HTTP/1.1" 400 45
+INFO 2022-06-07 01:19:19,092 basehttp 48281 140597317162752 "POST /api/contracts/2/events/ HTTP/1.1" 201 407
+INFO 2022-06-07 01:19:25,613 basehttp 48281 140597317162752 "GET /api/contracts/1/events/ HTTP/1.1" 200 314
+WARNING 2022-06-07 01:19:31,873 log 48281 140597317162752 Unauthorized: /api/contracts/1/
+WARNING 2022-06-07 01:19:31,873 basehttp 48281 140597317162752 "PATCH /api/contracts/1/ HTTP/1.1" 401 183
+INFO 2022-06-07 01:19:37,619 basehttp 48281 140597307459328 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 01:19:42,095 basehttp 48281 140597317162752 "PUT /api/contracts/1/ HTTP/1.1" 200 448
+INFO 2022-06-07 01:19:47,348 basehttp 48281 140597317162752 "PATCH /api/contracts/1/ HTTP/1.1" 200 448
+INFO 2022-06-07 01:19:57,751 basehttp 48281 140597317162752 "DELETE /api/contracts/2/ HTTP/1.1" 204 0
+INFO 2022-06-07 01:20:17,499 basehttp 48281 140597307459328 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-07 01:20:21,892 basehttp 48281 140597317162752 "GET /api/contracts/ HTTP/1.1" 200 356
+WARNING 2022-06-07 01:20:29,053 log 48281 140597317162752 Forbidden: /api/contracts/1/
+WARNING 2022-06-07 01:20:29,058 basehttp 48281 140597317162752 "GET /api/contracts/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:20:34,541 log 48281 140597317162752 Not Found: /api/contracts/2/events/
+WARNING 2022-06-07 01:20:34,541 basehttp 48281 140597317162752 "POST /api/contracts/2/events/ HTTP/1.1" 404 25
+WARNING 2022-06-07 01:20:42,823 log 48281 140597317162752 Forbidden: /api/contracts/1/events/
+WARNING 2022-06-07 01:20:42,823 basehttp 48281 140597317162752 "POST /api/contracts/1/events/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:20:48,048 log 48281 140597317162752 Forbidden: /api/contracts/1/events/
+WARNING 2022-06-07 01:20:48,049 basehttp 48281 140597317162752 "GET /api/contracts/1/events/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:20:53,147 log 48281 140597317162752 Forbidden: /api/contracts/1/
+WARNING 2022-06-07 01:20:53,148 basehttp 48281 140597317162752 "PUT /api/contracts/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:20:57,937 log 48281 140597317162752 Forbidden: /api/contracts/1/
+WARNING 2022-06-07 01:20:57,942 basehttp 48281 140597317162752 "PATCH /api/contracts/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:21:02,971 log 48281 140597317162752 Not Found: /api/contracts/2/
+WARNING 2022-06-07 01:21:02,971 basehttp 48281 140597317162752 "DELETE /api/contracts/2/ HTTP/1.1" 404 25
+WARNING 2022-06-07 01:21:08,489 log 48281 140597317162752 Forbidden: /api/contracts/1/
+WARNING 2022-06-07 01:21:08,489 basehttp 48281 140597317162752 "DELETE /api/contracts/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:21:15,122 basehttp 48281 140597317162752 "GET /api/events/ HTTP/1.1" 200 314
+INFO 2022-06-07 01:21:20,614 basehttp 48281 140597317162752 "GET /api/events/me/ HTTP/1.1" 200 52
+WARNING 2022-06-07 01:21:25,957 log 48281 140597317162752 Forbidden: /api/events/1/
+WARNING 2022-06-07 01:21:25,963 basehttp 48281 140597317162752 "GET /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:21:31,052 log 48281 140597317162752 Forbidden: /api/events/1/
+WARNING 2022-06-07 01:21:31,052 basehttp 48281 140597317162752 "PUT /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:21:35,753 log 48281 140597317162752 Forbidden: /api/events/1/
+WARNING 2022-06-07 01:21:35,753 basehttp 48281 140597317162752 "PATCH /api/events/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:21:40,569 log 48281 140597317162752 Not Found: /api/events/3/
+WARNING 2022-06-07 01:21:40,570 basehttp 48281 140597317162752 "DELETE /api/events/3/ HTTP/1.1" 404 25
+WARNING 2022-06-07 01:21:48,808 log 48281 140597317162752 Forbidden: /api/events/1/
+WARNING 2022-06-07 01:21:48,812 basehttp 48281 140597317162752 "DELETE /api/events/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:21:54,874 basehttp 48281 140597317162752 "GET /api/clients/ HTTP/1.1" 200 502
+WARNING 2022-06-07 01:22:00,199 log 48281 140597317162752 Forbidden: /api/clients/
+WARNING 2022-06-07 01:22:00,203 basehttp 48281 140597317162752 "POST /api/clients/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:22:05,154 basehttp 48281 140597317162752 "GET /api/clients/me/ HTTP/1.1" 200 52
+INFO 2022-06-07 01:22:12,698 basehttp 48281 140597317162752 "GET /api/clients/prospects/ HTTP/1.1" 200 278
+WARNING 2022-06-07 01:22:27,904 log 48281 140597317162752 Forbidden: /api/clients/1/
+WARNING 2022-06-07 01:22:27,905 basehttp 48281 140597317162752 "GET /api/clients/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:22:33,965 log 48281 140597317162752 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-07 01:22:33,965 basehttp 48281 140597317162752 "GET /api/clients/1/contracts/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:22:38,710 log 48281 140597317162752 Forbidden: /api/clients/1/contracts/
+WARNING 2022-06-07 01:22:38,710 basehttp 48281 140597317162752 "POST /api/clients/1/contracts/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:22:43,053 log 48281 140597317162752 Forbidden: /api/clients/1/
+WARNING 2022-06-07 01:22:43,054 basehttp 48281 140597317162752 "PUT /api/clients/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:22:47,742 log 48281 140597317162752 Forbidden: /api/clients/1/
+WARNING 2022-06-07 01:22:47,743 basehttp 48281 140597317162752 "PUT /api/clients/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:22:51,460 log 48281 140597317162752 Forbidden: /api/clients/1/
+WARNING 2022-06-07 01:22:51,464 basehttp 48281 140597317162752 "PATCH /api/clients/1/ HTTP/1.1" 403 68
+WARNING 2022-06-07 01:22:55,935 log 48281 140597317162752 Forbidden: /api/clients/1/
+WARNING 2022-06-07 01:22:55,936 basehttp 48281 140597317162752 "DELETE /api/clients/1/ HTTP/1.1" 403 68
+INFO 2022-06-07 01:26:31,093 autoreload 48281 140597385447232 /home/lahou/DA-Python/P12/crm/event/permissions.py changed, reloading.
+INFO 2022-06-07 01:26:31,807 autoreload 48983 140483586221888 Watching for file changes with StatReloader
+INFO 2022-06-07 01:29:15,296 autoreload 48983 140483586221888 /home/lahou/DA-Python/P12/crm/client/views.py changed, reloading.
+INFO 2022-06-07 01:29:15,998 autoreload 49101 140162176354112 Watching for file changes with StatReloader
