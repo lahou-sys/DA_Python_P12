@@ -3,6 +3,15 @@ from rest_framework import permissions
 
 class EventPermission(permissions.BasePermission):
 
-    def has_object_permission(self, request, view, obj):
+    def has_permission(self, request, view):
+        if request.method in permissions.SAFE_METHODS:
+            if request.user.groups.filter(name='sales').exists():
+                return True
+            elif request.user.groups.filter(name='support').exists():
+                return True
 
-        return request.user == obj.support_contact
+    def has_object_permission(self, request, view, obj):
+        if request.user == obj.support_contact:
+            return True
+        elif request.user == obj.contract.client.sales_contact:
+            return True

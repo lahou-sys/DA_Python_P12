@@ -28,4 +28,7 @@ class EventViewSet(CustomListMixin,
 
     @action(methods=['GET'], detail=False)
     def me(self, request):
+        logger.error(f'{request.user}')
+        logger.error('Something went wrong!')
         return self.list(request=request, filter={'support_contact': request.user})
+    

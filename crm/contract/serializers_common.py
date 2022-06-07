@@ -13,7 +13,7 @@ class ContractNestedSerializer(serializers.ModelSerializer):
             'id',
             'project_name',
             'url',
-            'client',
+            'client_id',
         ]
         extra_kwargs = {
             "url": {"view_name": "api:contract-detail"}
