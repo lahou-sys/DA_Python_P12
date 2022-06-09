@@ -1,6 +1,7 @@
 import logging
 
-from rest_framework import status, viewsets
+from rest_framework import status, viewsets, filters
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
@@ -28,6 +29,25 @@ class ContractViewSet(CustomListMixin,
     serializer_class = ContractSerializer
     list_serializer_class = ContractListSerializer
     filterset_class = ContractFilter
+    filter_backends = (filters.SearchFilter, DjangoFilterBackend)
+    search_fields = [
+        'id',
+        'client__first_name',
+        'client__last_name',
+        'client__email',
+        'date_created',
+        'amount',
+        ]
+    filterset_fields = [
+        'id',
+        'project_name',
+        'signed',
+        'min_amount',
+        'max_amount',
+        'client__id',
+        'client__sales_contact',
+        ]
+
 
     @action(methods=['GET', 'POST'], detail=True)
     def events(self, request, pk=None):

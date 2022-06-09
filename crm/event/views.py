@@ -1,6 +1,7 @@
 import logging
 
-from rest_framework import viewsets
+from rest_framework import viewsets, filters
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 
@@ -25,6 +26,22 @@ class EventViewSet(CustomListMixin,
     serializer_class = EventSerializer
     list_serializer_class = EventListSerializer
     filterset_class = EventFilter
+    filter_backends = (filters.SearchFilter, DjangoFilterBackend)
+    search_fields = [
+        'contract__client__first_name',
+        'contract__client__last_name',
+        'contract__client__email',
+        'event_date',
+        ]
+    filterset_fields = [
+        'support_contact',
+        'attendees',
+        'event_date',
+        'completed',
+        'contract__project_name',
+        'min_attendees',
+        'max_attendees',
+        ]
 
     @action(methods=['GET'], detail=False)
     def me(self, request):

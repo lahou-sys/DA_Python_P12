@@ -1,6 +1,7 @@
 import logging
 
-from rest_framework import status, viewsets
+from rest_framework import status, viewsets, filters
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
@@ -22,6 +23,22 @@ class ClientViewSet(CustomListMixin, viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
     list_serializer_class = ClientListSerializer
+    filter_backends = (filters.SearchFilter, DjangoFilterBackend)
+    filterset_fields = [
+        'id',
+        'first_name',
+        'last_name',
+        'company_name',
+        'sales_contact',
+        'email',
+        'converted'
+        ]
+    search_fields = [
+        'id',
+        'first_name',
+        'last_name',
+        'email',
+        ]
     filterset_fields = [
         'id',
         'first_name',

@@ -5744,3 +5744,316 @@ INFO 2022-06-07 01:26:31,093 autoreload 48281 140597385447232 /home/lahou/DA-Pyt
 INFO 2022-06-07 01:26:31,807 autoreload 48983 140483586221888 Watching for file changes with StatReloader
 INFO 2022-06-07 01:29:15,296 autoreload 48983 140483586221888 /home/lahou/DA-Python/P12/crm/client/views.py changed, reloading.
 INFO 2022-06-07 01:29:15,998 autoreload 49101 140162176354112 Watching for file changes with StatReloader
+INFO 2022-06-09 06:06:02,831 autoreload 4741 140032135239488 Watching for file changes with StatReloader
+WARNING 2022-06-09 06:18:37,282 log 4741 140032066955008 Unauthorized: /api/clients/
+WARNING 2022-06-09 06:18:37,285 basehttp 4741 140032066955008 "GET /api/clients/?client=1 HTTP/1.1" 401 183
+INFO 2022-06-09 06:18:50,333 basehttp 4741 140032058038016 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 06:19:00,440 basehttp 4741 140032066955008 "GET /api/clients/?client=1 HTTP/1.1" 200 502
+INFO 2022-06-09 06:19:45,612 basehttp 4741 140032066955008 "GET /api/clients/?first_name=Anders HTTP/1.1" 200 502
+INFO 2022-06-09 06:20:18,866 basehttp 4741 140032066955008 "GET /api/clients/?email=anders.hellman@arasaka.com HTTP/1.1" 200 502
+INFO 2022-06-09 06:21:00,755 basehttp 4741 140032066955008 "GET /api/contracts/ HTTP/1.1" 200 356
+INFO 2022-06-09 06:21:23,298 basehttp 4741 140032066955008 "GET /api/contracts/?amount=500000 HTTP/1.1" 200 356
+INFO 2022-06-09 06:21:29,323 basehttp 4741 140032066955008 "GET /api/contracts/?amount=50000 HTTP/1.1" 200 356
+INFO 2022-06-09 06:21:36,086 basehttp 4741 140032066955008 "GET /api/contracts/?amount=5 HTTP/1.1" 200 356
+INFO 2022-06-09 06:21:46,227 basehttp 4741 140032066955008 "GET /api/contracts/?amount=3 HTTP/1.1" 200 356
+INFO 2022-06-09 06:22:16,296 basehttp 4741 140032066955008 "GET /api/contracts/?client=3 HTTP/1.1" 200 356
+INFO 2022-06-09 06:22:40,376 basehttp 4741 140032066955008 "GET /api/contracts/? HTTP/1.1" 200 356
+INFO 2022-06-09 06:43:36,216 basehttp 4741 140032066955008 "GET /api/clients?search=anders.hellman@arasaka.com HTTP/1.1" 301 0
+WARNING 2022-06-09 06:43:36,223 log 4741 140032066955008 Unauthorized: /api/clients/
+WARNING 2022-06-09 06:43:36,224 basehttp 4741 140032066955008 "GET /api/clients/?search=anders.hellman@arasaka.com HTTP/1.1" 401 183
+INFO 2022-06-09 06:43:42,510 basehttp 4741 140032058038016 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 06:43:50,805 basehttp 4741 140032066955008 "GET /api/clients?search=anders.hellman@arasaka.com HTTP/1.1" 301 0
+INFO 2022-06-09 06:43:50,886 basehttp 4741 140032066955008 "GET /api/clients/?search=anders.hellman@arasaka.com HTTP/1.1" 200 502
+INFO 2022-06-09 06:43:56,239 basehttp 4741 140032066955008 "GET /api/clients?search=anders.hellman@arasaka.fr HTTP/1.1" 301 0
+INFO 2022-06-09 06:43:56,294 basehttp 4741 140032066955008 "GET /api/clients/?search=anders.hellman@arasaka.fr HTTP/1.1" 200 502
+INFO 2022-06-09 06:44:06,464 basehttp 4741 140032066955008 "GET /api/clients?search=toto HTTP/1.1" 301 0
+INFO 2022-06-09 06:44:06,505 basehttp 4741 140032066955008 "GET /api/clients/?search=toto HTTP/1.1" 200 502
+INFO 2022-06-09 06:44:26,132 basehttp 4741 140032066955008 "GET /api/clients?search= HTTP/1.1" 301 0
+INFO 2022-06-09 06:44:26,194 basehttp 4741 140032066955008 "GET /api/clients/?search= HTTP/1.1" 200 502
+INFO 2022-06-09 06:47:48,332 autoreload 38522 139723049662272 Watching for file changes with StatReloader
+INFO 2022-06-09 06:48:33,875 basehttp 38522 139722981377792 "GET /api/clients?search= HTTP/1.1" 301 0
+INFO 2022-06-09 06:48:33,973 basehttp 38522 139722981377792 "GET /api/clients/?search= HTTP/1.1" 200 502
+WARNING 2022-06-09 06:50:27,746 log 38522 139722981377792 Not Found: /api/clientsl
+WARNING 2022-06-09 06:50:27,747 basehttp 38522 139722981377792 "GET /api/clientsl?search= HTTP/1.1" 404 5051
+WARNING 2022-06-09 06:53:00,520 log 38522 139722981377792 Unauthorized: /api/clients/
+WARNING 2022-06-09 06:53:00,520 basehttp 38522 139722981377792 "GET /api/clients/?search= HTTP/1.1" 401 183
+INFO 2022-06-09 06:53:07,095 basehttp 38522 139722971674368 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 06:53:13,363 basehttp 38522 139722981377792 "GET /api/clients/?search= HTTP/1.1" 200 502
+INFO 2022-06-09 06:53:20,138 basehttp 38522 139722981377792 "GET /api/clients/?search=toto HTTP/1.1" 200 502
+INFO 2022-06-09 06:55:09,486 autoreload 38522 139723049662272 /home/lahou/DA-Python/P12/crm/client/views.py changed, reloading.
+INFO 2022-06-09 06:55:10,285 autoreload 38695 140175694276416 Watching for file changes with StatReloader
+INFO 2022-06-09 06:56:16,080 autoreload 38695 140175694276416 /home/lahou/DA-Python/P12/crm/client/views.py changed, reloading.
+INFO 2022-06-09 06:56:16,830 autoreload 38752 140587760822080 Watching for file changes with StatReloader
+INFO 2022-06-09 06:56:31,203 basehttp 38752 140587692537600 "GET /api/clients/?search=toto HTTP/1.1" 200 52
+INFO 2022-06-09 06:56:41,209 basehttp 38752 140587692537600 "GET /api/clients/?search= HTTP/1.1" 200 502
+INFO 2022-06-09 06:56:54,552 basehttp 38752 140587692537600 "GET /api/clients/?search=1 HTTP/1.1" 200 275
+INFO 2022-06-09 06:57:13,301 basehttp 38752 140587692537600 "GET /api/clients/?search=Anders HTTP/1.1" 200 502
+INFO 2022-06-09 06:59:21,740 autoreload 38752 140587760822080 /home/lahou/DA-Python/P12/crm/client/views.py changed, reloading.
+INFO 2022-06-09 06:59:22,426 autoreload 38899 140079207913280 Watching for file changes with StatReloader
+INFO 2022-06-09 07:03:32,431 autoreload 38899 140079207913280 /home/lahou/DA-Python/P12/crm/contract/views.py changed, reloading.
+INFO 2022-06-09 07:03:33,114 autoreload 39023 140220534945600 Watching for file changes with StatReloader
+WARNING 2022-06-09 07:03:55,887 log 39023 140220466661120 Unauthorized: /api/contracts/
+WARNING 2022-06-09 07:03:55,887 basehttp 39023 140220466661120 "GET /api/contracts/ HTTP/1.1" 401 183
+INFO 2022-06-09 07:04:01,158 basehttp 39023 140220457744128 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 07:04:09,706 basehttp 39023 140220466661120 "GET /api/contracts/ HTTP/1.1" 200 356
+ERROR 2022-06-09 07:04:18,829 log 39023 140220466661120 Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/crm/crm/base_mixin.py", line 13, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/filters.py", line 124, in filter_queryset
+    queryset = queryset.filter(reduce(operator.and_, conditions))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1358, in build_filter
+    return self._add_q(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1436, in build_filter
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: emaildate_created
+ERROR 2022-06-09 07:04:18,838 basehttp 39023 140220466661120 "GET /api/contracts/?search=toto HTTP/1.1" 500 153101
+INFO 2022-06-09 07:06:27,974 autoreload 39023 140220534945600 /home/lahou/DA-Python/P12/crm/contract/views.py changed, reloading.
+INFO 2022-06-09 07:06:28,713 autoreload 39159 140532662630208 Watching for file changes with StatReloader
+INFO 2022-06-09 07:06:38,374 basehttp 39159 140532594345728 "GET /api/contracts/?search=toto HTTP/1.1" 200 52
+INFO 2022-06-09 07:06:53,079 basehttp 39159 140532594345728 "GET /api/contracts/ HTTP/1.1" 200 356
+INFO 2022-06-09 07:07:08,908 basehttp 39159 140532594345728 "GET /api/contracts/?search=50 HTTP/1.1" 200 356
+INFO 2022-06-09 07:07:16,959 basehttp 39159 140532594345728 "GET /api/contracts/?search=40 HTTP/1.1" 200 52
+INFO 2022-06-09 07:07:21,299 basehttp 39159 140532594345728 "GET /api/contracts/?search=50 HTTP/1.1" 200 356
+INFO 2022-06-09 07:07:28,998 basehttp 39159 140532594345728 "GET /api/contracts/?search=Anders HTTP/1.1" 200 356
+INFO 2022-06-09 07:07:33,910 basehttp 39159 140532594345728 "GET /api/contracts/?search=toto HTTP/1.1" 200 52
+INFO 2022-06-09 07:07:38,896 basehttp 39159 140532594345728 "GET /api/contracts/?search=ander HTTP/1.1" 200 356
+INFO 2022-06-09 07:08:21,272 basehttp 39159 140532594345728 "GET /api/clients/ HTTP/1.1" 200 502
+INFO 2022-06-09 07:08:34,633 basehttp 39159 140532594345728 "GET /api/contracts/?search=anders.hellman@arasaka.com HTTP/1.1" 200 356
+INFO 2022-06-09 07:08:45,765 basehttp 39159 140532594345728 "GET /api/contracts/?search=toto.hellman@arasaka.com HTTP/1.1" 200 52
+INFO 2022-06-09 07:08:54,896 basehttp 39159 140532594345728 "GET /api/contracts/?search=anders.hellman@arasaka.com HTTP/1.1" 200 356
+WARNING 2022-06-09 07:09:04,518 log 39159 140532594345728 Unauthorized: /api/contracts/
+WARNING 2022-06-09 07:09:04,518 basehttp 39159 140532594345728 "GET /api/contracts/?search=anders.hellman@arasaka.fr HTTP/1.1" 401 183
+INFO 2022-06-09 07:09:10,151 basehttp 39159 140532584904448 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 07:09:13,801 basehttp 39159 140532594345728 "GET /api/contracts/?search=anders.hellman@arasaka.fr HTTP/1.1" 200 52
+INFO 2022-06-09 07:09:19,847 basehttp 39159 140532594345728 "GET /api/contracts/?search=anders.hellman@arasaka.com HTTP/1.1" 200 356
+INFO 2022-06-09 07:11:15,988 autoreload 39159 140532662630208 /home/lahou/DA-Python/P12/crm/event/views.py changed, reloading.
+INFO 2022-06-09 07:11:16,793 autoreload 39415 140267247507264 Watching for file changes with StatReloader
+INFO 2022-06-09 07:11:23,786 autoreload 39415 140267247507264 /home/lahou/DA-Python/P12/crm/contract/views.py changed, reloading.
+INFO 2022-06-09 07:11:24,978 autoreload 39476 140422206867264 Watching for file changes with StatReloader
+INFO 2022-06-09 07:11:42,507 basehttp 39476 140422071449344 "GET /api/events/?search= HTTP/1.1" 200 314
+ERROR 2022-06-09 07:12:00,916 log 39476 140422071449344 Internal Server Error: /api/events/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/crm/crm/base_mixin.py", line 13, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/filters.py", line 124, in filter_queryset
+    queryset = queryset.filter(reduce(operator.and_, conditions))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1358, in build_filter
+    return self._add_q(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'id' into field. Choices are: attendees, completed, contract, contract_id, date_created, date_updated, event_date, notes, support_contact, support_contact_id
+ERROR 2022-06-09 07:12:00,935 basehttp 39476 140422071449344 "GET /api/events/?search=toto HTTP/1.1" 500 160892
+INFO 2022-06-09 07:12:17,591 autoreload 39476 140422206867264 /home/lahou/DA-Python/P12/crm/contract/views.py changed, reloading.
+INFO 2022-06-09 07:12:18,747 autoreload 39558 140092731549504 Watching for file changes with StatReloader
+ERROR 2022-06-09 07:12:24,184 log 39558 140092663265024 Internal Server Error: /api/events/
+Traceback (most recent call last):
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/lahou/DA-Python/P12/crm/crm/base_mixin.py", line 13, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/rest_framework/filters.py", line 124, in filter_queryset
+    queryset = queryset.filter(reduce(operator.and_, conditions))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1358, in build_filter
+    return self._add_q(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1377, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1187, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/lahou/DA-Python/P12/.venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'id' into field. Choices are: attendees, completed, contract, contract_id, date_created, date_updated, event_date, notes, support_contact, support_contact_id
+ERROR 2022-06-09 07:12:24,186 basehttp 39558 140092663265024 "GET /api/events/?search=toto HTTP/1.1" 500 160892
+INFO 2022-06-09 07:12:49,586 autoreload 39558 140092731549504 /home/lahou/DA-Python/P12/crm/contract/views.py changed, reloading.
+INFO 2022-06-09 07:12:50,401 autoreload 39631 140246035953472 Watching for file changes with StatReloader
+INFO 2022-06-09 07:12:58,432 autoreload 39631 140246035953472 /home/lahou/DA-Python/P12/crm/event/views.py changed, reloading.
+INFO 2022-06-09 07:12:59,638 autoreload 39689 140401590986560 Watching for file changes with StatReloader
+INFO 2022-06-09 07:13:03,459 basehttp 39689 140401522702080 "GET /api/events/?search=toto HTTP/1.1" 200 52
+INFO 2022-06-09 07:13:12,592 basehttp 39689 140401522702080 "GET /api/events/?search=anders HTTP/1.1" 200 314
+INFO 2022-06-09 07:13:30,740 basehttp 39689 140401522702080 "GET /api/events/?search=29-06-2022 HTTP/1.1" 200 52
+INFO 2022-06-09 07:13:39,062 basehttp 39689 140401522702080 "GET /api/events/?search=29062022 HTTP/1.1" 200 52
+INFO 2022-06-09 07:13:50,605 basehttp 39689 140401522702080 "GET /api/events/?search=29 HTTP/1.1" 200 314
+WARNING 2022-06-09 07:14:23,056 log 39689 140401522702080 Unauthorized: /api/events/
+WARNING 2022-06-09 07:14:23,057 basehttp 39689 140401522702080 "GET /api/events/?search=anders.hellman@arasaka.com HTTP/1.1" 401 183
+INFO 2022-06-09 07:14:29,894 basehttp 39689 140401513260800 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 07:14:37,087 basehttp 39689 140401522702080 "GET /api/events/?search=anders.hellman@arasaka.com HTTP/1.1" 200 314
+INFO 2022-06-09 07:14:43,351 basehttp 39689 140401522702080 "GET /api/clients/?search=Anders HTTP/1.1" 200 502
+INFO 2022-06-09 07:14:46,530 basehttp 39689 140401522702080 "GET /api/contracts/?search=anders.hellman@arasaka.com HTTP/1.1" 200 356
+INFO 2022-06-09 19:12:27,173 autoreload 5611 139928746927936 Watching for file changes with StatReloader
+INFO 2022-06-09 19:12:42,293 basehttp 5611 139928678643456 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-09 19:12:42,406 basehttp 5611 139928678643456 "GET /admin/ HTTP/1.1" 200 7549
+INFO 2022-06-09 19:12:42,572 basehttp 5611 139928678643456 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,582 basehttp 5611 139928678643456 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,586 basehttp 5611 139928652416768 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,591 basehttp 5611 139928669202176 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,593 basehttp 5611 139928660809472 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,617 basehttp 5611 139928652416768 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,639 basehttp 5611 139928660809472 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-06-09 19:12:42,640 basehttp 5611 139928669202176 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-06-09 19:12:42,673 basehttp 5611 139928660809472 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,681 basehttp 5611 139928660809472 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:42,704 basehttp 5611 139928660809472 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-06-09 19:12:49,991 basehttp 5611 139928678643456 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-06-09 19:12:50,107 basehttp 5611 139928678643456 "GET /admin/ HTTP/1.1" 200 7549
+INFO 2022-06-09 19:13:19,437 basehttp 5611 139928678643456 "GET /crm-admin/ HTTP/1.1" 200 8254
+INFO 2022-06-09 19:13:34,029 basehttp 5611 139928678643456 "GET /crm-admin/event/event/ HTTP/1.1" 200 12447
+INFO 2022-06-09 19:13:34,139 basehttp 5611 139928660809472 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,145 basehttp 5611 139928652416768 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,170 basehttp 5611 139928660809472 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,176 basehttp 5611 139928652416768 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,187 basehttp 5611 139928678643456 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,188 basehttp 5611 139928660809472 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,192 basehttp 5611 139928669202176 "GET /crm-admin/jsi18n/ HTTP/1.1" 200 7953
+INFO 2022-06-09 19:13:34,220 basehttp 5611 139928669202176 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,226 basehttp 5611 139928652416768 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,231 basehttp 5611 139928669202176 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2022-06-09 19:13:34,239 basehttp 5611 139928660809472 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-06-09 19:13:34,240 basehttp 5611 139928652416768 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-06-09 19:13:34,342 basehttp 5611 139928669202176 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-06-09 19:13:34,348 basehttp 5611 139928669202176 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2022-06-09 19:17:01,748 basehttp 5611 139928669202176 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 19:17:09,760 basehttp 5611 139928660809472 "GET /api/events/?search=anders.hellman@arasaka.com HTTP/1.1" 200 314
+INFO 2022-06-09 19:17:42,898 basehttp 5611 139928660809472 "GET /api/events/?completed=true HTTP/1.1" 200 314
+INFO 2022-06-09 19:17:51,983 basehttp 5611 139928660809472 "GET /api/events/?completed=false HTTP/1.1" 200 314
+INFO 2022-06-09 19:18:04,231 basehttp 5611 139928660809472 "GET /api/events/?completed=False HTTP/1.1" 200 314
+INFO 2022-06-09 19:22:40,173 autoreload 5611 139928746927936 /home/lahou/DA-Python/P12/crm/event/views.py changed, reloading.
+INFO 2022-06-09 19:22:41,446 autoreload 5908 140446702577472 Watching for file changes with StatReloader
+WARNING 2022-06-09 19:22:58,588 log 5908 140446567151360 Unauthorized: /api/events/
+WARNING 2022-06-09 19:22:58,588 basehttp 5908 140446567151360 "GET /api/events/?completed=False HTTP/1.1" 401 183
+INFO 2022-06-09 19:23:04,917 basehttp 5908 140446558234368 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 19:23:14,029 basehttp 5908 140446567151360 "GET /api/events/?completed=False HTTP/1.1" 200 52
+INFO 2022-06-09 19:23:21,399 basehttp 5908 140446567151360 "GET /api/events/?completed=true HTTP/1.1" 200 314
+INFO 2022-06-09 19:28:32,225 autoreload 5908 140446702577472 /home/lahou/DA-Python/P12/crm/event/views.py changed, reloading.
+INFO 2022-06-09 19:28:33,595 autoreload 6073 140559280101184 Watching for file changes with StatReloader
+INFO 2022-06-09 19:30:31,873 autoreload 6073 140559280101184 /home/lahou/DA-Python/P12/crm/event/views.py changed, reloading.
+INFO 2022-06-09 19:30:32,797 autoreload 6172 139950641702720 Watching for file changes with StatReloader
+INFO 2022-06-09 19:32:56,511 autoreload 6172 139950641702720 /home/lahou/DA-Python/P12/crm/client/views.py changed, reloading.
+INFO 2022-06-09 19:32:57,454 autoreload 6291 140659755108160 Watching for file changes with StatReloader
+WARNING 2022-06-09 19:33:16,601 log 6291 140659686823680 Unauthorized: /api/clients/
+WARNING 2022-06-09 19:33:16,601 basehttp 6291 140659686823680 "GET /api/clients/?converted=true HTTP/1.1" 401 183
+INFO 2022-06-09 19:33:24,858 basehttp 6291 140659677906688 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 19:33:31,464 basehttp 6291 140659686823680 "GET /api/clients/?converted=true HTTP/1.1" 200 275
+INFO 2022-06-09 19:33:42,353 basehttp 6291 140659686823680 "GET /api/clients/?converted=false HTTP/1.1" 200 278
+INFO 2022-06-09 19:33:55,271 basehttp 6291 140659686823680 "GET /api/clients/?converted=true HTTP/1.1" 200 275
+INFO 2022-06-09 19:35:10,493 basehttp 6291 140659686823680 "GET /api/clients/?converted=true&first_name=and HTTP/1.1" 200 52
+INFO 2022-06-09 19:35:18,290 basehttp 6291 140659686823680 "GET /api/clients/?converted=true&first_name=an HTTP/1.1" 200 52
+INFO 2022-06-09 19:35:36,571 basehttp 6291 140659686823680 "GET /api/clients/?converted=true&search=an HTTP/1.1" 200 275
+INFO 2022-06-09 19:35:47,633 basehttp 6291 140659686823680 "GET /api/clients/?converted=true&search=toto HTTP/1.1" 200 52
+INFO 2022-06-09 19:36:01,181 basehttp 6291 140659686823680 "GET /api/clients/?converted=true&search=an HTTP/1.1" 200 275
+INFO 2022-06-09 19:36:21,911 basehttp 6291 140659686823680 "GET /api/clients/?converted=false&search=an HTTP/1.1" 200 278
+INFO 2022-06-09 19:39:54,690 autoreload 6291 140659755108160 /home/lahou/DA-Python/P12/crm/contract/views.py changed, reloading.
+INFO 2022-06-09 19:39:55,449 autoreload 6595 140559224010560 Watching for file changes with StatReloader
+INFO 2022-06-09 19:41:06,864 basehttp 6595 140559155726080 "GET /api/contracts/min_amount=50 HTTP/1.1" 301 0
+WARNING 2022-06-09 19:41:06,886 log 6595 140559155726080 Unauthorized: /api/contracts/min_amount=50/
+WARNING 2022-06-09 19:41:06,887 basehttp 6595 140559155726080 "GET /api/contracts/min_amount%3D50/ HTTP/1.1" 401 183
+INFO 2022-06-09 19:41:12,655 basehttp 6595 140559146809088 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 19:41:18,247 basehttp 6595 140559155726080 "GET /api/contracts/min_amount=50 HTTP/1.1" 301 0
+WARNING 2022-06-09 19:41:18,291 log 6595 140559155726080 Not Found: /api/contracts/min_amount=50/
+WARNING 2022-06-09 19:41:18,303 basehttp 6595 140559155726080 "GET /api/contracts/min_amount%3D50/ HTTP/1.1" 404 25
+INFO 2022-06-09 19:41:33,079 basehttp 6595 140559155726080 "GET /api/contracts/?min_amount=50 HTTP/1.1" 200 356
+INFO 2022-06-09 19:41:43,029 basehttp 6595 140559155726080 "GET /api/contracts/?max_amount=50 HTTP/1.1" 200 52
+INFO 2022-06-09 19:45:38,138 autoreload 6595 140559224010560 /home/lahou/DA-Python/P12/crm/event/views.py changed, reloading.
+INFO 2022-06-09 19:45:39,047 autoreload 6811 140127894284096 Watching for file changes with StatReloader
+INFO 2022-06-09 19:46:08,539 basehttp 6811 140127825999616 "GET /api/events/?min_attendees=1 HTTP/1.1" 200 314
+WARNING 2022-06-09 19:46:25,435 log 6811 140127825999616 Unauthorized: /api/events/
+WARNING 2022-06-09 19:46:25,436 basehttp 6811 140127825999616 "GET /api/events/?min_attendees=10000 HTTP/1.1" 401 183
+INFO 2022-06-09 19:46:32,827 basehttp 6811 140127816558336 "POST /auth-token/ HTTP/1.1" 200 483
+INFO 2022-06-09 19:46:37,895 basehttp 6811 140127825999616 "GET /api/events/?min_attendees=10000 HTTP/1.1" 200 52
+INFO 2022-06-09 19:46:44,744 basehttp 6811 140127825999616 "GET /api/events/?min_attendees=1 HTTP/1.1" 200 314
+INFO 2022-06-09 19:47:33,416 basehttp 6811 140127825999616 "GET /api/events/?completed=true HTTP/1.1" 200 314
+INFO 2022-06-09 19:47:41,786 basehttp 6811 140127825999616 "GET /api/events/?completed=false HTTP/1.1" 200 52
+INFO 2022-06-09 19:47:56,711 basehttp 6811 140127825999616 "GET /api/events/?completed=true HTTP/1.1" 200 314
+INFO 2022-06-09 19:48:10,760 basehttp 6811 140127825999616 "GET /api/contracts/?max_amount=50 HTTP/1.1" 200 52
+INFO 2022-06-09 19:48:25,787 basehttp 6811 140127825999616 "GET /api/contracts/?min_amount=3 HTTP/1.1" 200 356
