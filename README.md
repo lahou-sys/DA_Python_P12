@@ -43,6 +43,7 @@ Développez une architecture back-end sécurisée en utilisant Django ORM
       - [Evénements](#evénements)
     - [Filtres, recherche et tri](#filtres-recherche-et-tri)
     - [Documentation de l'API](#documentation-de-lapi)
+  - [Les différents profiles utilisateurs](#les-différents-profiles-utilisateurs)
   - [Interface d'administration du CRM](#interface-dadministration-du-crm)
     - [Url de la console d'administration du CRM](#url-de-la-console-dadministration-du-crm)
     - [Création d'un utilisateur avec un profile "manager"](#création-dun-utilisateur-avec-un-profile-manager)
@@ -621,6 +622,23 @@ Url doc API :
 
 [<div align="center">[Table of Contents]</div>](#Table_of_Contents)
 
+## Les différents profiles utilisateurs
+
+Il est existe trois profiles différents d'utilisateurs au sein du CRM, ceci est matérialisé par des groupes dans Django. Voici ces trois groupes :
+
+* "sales" : groupe qui rassemble les membres de l'équipe des vendeurs.
+* "support":  groupe qui rassemble les membres de l'équipe du support.
+* "managers": groupe qui rassemble les membres de l'équipe des gestionnaires.
+
+Un utilisateur peu être membre d'un groupe ou de plusieurs groupes.
+
+Les membres des groupes "sales" ou "support" ont uniquement la possibilité  de se connecter via l'API.
+
+Les membres du groupe "managers" ont la possibilité de se connecter à la console d'administration
+du CRM.
+
+[<div align="center">[Table of Contents]</div>](#Table_of_Contents)
+
 ## Interface d'administration du CRM
 
 Seul les utilisateurs présents dans le groupe des "managers" (équipe de gestion) sont authorisés à se connecter à l'interface de d'administration du CRM.
@@ -684,6 +702,7 @@ Copie d'écran pour un vendeur:
 ![Screenshot_site](./images/create_user_saler.png)
 
 [<div align="center">[Table of Contents]</div>](#Table_of_Contents)
+
 
 ## Contact <a name="Contact"></a>
 
