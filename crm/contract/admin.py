@@ -6,9 +6,9 @@ from base_admin.admin import base_admin_interface
 class BaseContractAdmin(admin.ModelAdmin):
     
     list_display = [
+        'project_name',
         'id',
         'client',
-        'project_name',
         'signed',
         'amount',
         'payment_due_date',

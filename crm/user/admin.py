@@ -26,8 +26,8 @@ class BaseUserAdmin(auth_admin.UserAdmin):
         (_("Important dates"), {"fields": ("last_login", "date_joined")}),
     )
     list_display = [
-        'id',
         'username',
+        'id',
         'email',
         'first_name',
         'last_name',

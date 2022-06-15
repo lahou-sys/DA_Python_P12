@@ -7,9 +7,9 @@ from base_admin.admin import base_admin_interface
 class BaseClientAdmin(admin.ModelAdmin):
     
     list_display = [
-        'id',
-        'first_name',
         'last_name',
+        'first_name',
+        'id',
         'email',
         'phone',
         'mobile',

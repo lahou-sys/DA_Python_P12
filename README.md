@@ -617,7 +617,8 @@ Pour plus de détails, la documentation est disponible à l'url suivant :
 
 Url doc API :
 
-- https://
+- https://documenter.getpostman.com/view/13028407/UzBiR9Hi
+  
 
 
 [<div align="center">[Table of Contents]</div>](#Table_of_Contents)

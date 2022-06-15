@@ -39,15 +39,6 @@ class ClientViewSet(CustomListMixin, viewsets.ModelViewSet):
         'last_name',
         'email',
         ]
-    filterset_fields = [
-        'id',
-        'first_name',
-        'last_name',
-        'company_name',
-        'sales_contact',
-        'email',
-        'converted'
-        ]
 
     def perform_create(self, serializer):
         serializer.save(sales_contact=self.request.user)
